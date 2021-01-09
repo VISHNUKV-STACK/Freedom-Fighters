@@ -1,6 +1,54 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     
+}
+.mainbody-section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.nav_sec{
+    width: 100%;
+    height: 80px;
+    background-color: brown;
+}
+.nav_sec_brand{
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+}
+#nav_sec_brand_name{
+    font-size:  30px;
+    text-transform: capitalize;
+}
+.nav_sec_links{
+    background-color: chartreuse;
+}
+@media screen and (max-width:767px){
+    .nav_sec{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+.nav_sec_brand{
+    height: 50%;
+    padding: 5px;
+}
+.nav_sec_links{
+    height: 50%;
+}
+}
+@media screen and (max-width:576px){
+    .nav_sec{
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+.nav_sec_brand{
+    height: 50%;
+    padding: 5px;
+}
+.nav_sec_links{
+    height: 50%;
+}
 }
