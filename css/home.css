@@ -6,14 +6,11 @@
 }
 .nav_sec{
     width: 100%;
-    height: 80px;
-
+    height: 100px;
 }
 .nav_sec_brand{
     text-align: center;
     padding: 10px;
-
-
 }
 #nav_sec_brand_name{
     font-size:  30px;
@@ -49,99 +46,73 @@ li{
 }
 
 /* body sections */
-.body_sec{
-    width: 100%;
-    height: 700px;
-    margin-top: 10px;  
-}   
+  .content_sec{
+      width: 100%;
+      height: 600px;
+
+      border: 2px solid black;
+  } 
 
  /* body section one */
-.body_sec_1{
-    width: 50%;
-    height: 100%;
-    padding: 20px;
 
-    background-color: blue;
-}
-
-.body_sec1_cont{
-    height: 650px;
-    padding: 10px;
-    background-color: brown;
-}
-
-/* body section two */
-
-.body_sec_2{
-    width: 50%;
-    height: 100%;
-    padding: 20px;
-
-    background-color: red;
-
-}
-.body_sec2_cont{
-    height: 650px;
-    background-color: green;
-    padding: 30px;
-    padding-top: 40px;
-    padding-left: 40px;
-}
-#body_sec2_vedio{
-    width: 80%;
-    height: 60%;
-}
-
-
-
-@media screen and (max-width:767px){
-    .nav_sec{
+.content_sec1{
     width: 100%;
-    height: 150px;
-}
-.nav_sec_brand{
-    height: 50%;
-    padding: 5px;
-}
-.nav_sec_links{
-    height: 50%;
-}
-}
-@media screen and (max-width:576px){
-.nav_sec{
-    width: 100%;
-    height: 150px;
-}
-.nav_sec_brand{
-    height: 50%;
-    padding: 5px;
-}
-.nav_sec_links{
-    height: 50%;
-}
-
-
-
-.body_sec_cont_2{
-    width: 50%;
-    height: 600px;
-    padding: 10px;
+    height: 100%;
+    text-align: center;
     justify-content: center;
-    margin-top: auto;
-}
-}
-@media screen and (max-width:370px){
-}
-@media screen and (max-width:370px){
-    .body_sec{
-    width: 100%;
-    height: 1000px;
-    margin-top: 10px;  
-}
-.body_sec1_cont{
-    height: 950px;
-    padding: 10px;
-    background-color: brown;
-}  
 
+    border: 2px solid red;
 }
+.content{
+    width: 100%;
+    height: 50%;
+    padding: 15px;
+    border: 2px solid springgreen;
+}
+.content p{
+    text-align: left;
+    text-align-last: left;
+    margin:auto;
+    font-size: 25px;
+}
+.cont_links{
+    width: 100%;
+    height: 50%;
+    border: 2px solid blue;
+}
+.cont_vedio{
+    height: 100%;
+    padding: 10px;
+}
+.cards{
+    width: 100px;
+    height: 200px;
+    border: 2px solid violet;
+    margin: 10px;
+    
+}
+/* content section two */
+
+.content_sec2{
+    height: 100%;
+    border: 2px solid grey; 
+}
+.cont_vedio{
+    height: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 25%;
+}
+.vedio{
+    height: 100%;
+}
+
+
+
+
+
+
+
+
